@@ -1,0 +1,134 @@
+@charset "utf-8";
+.mainbox
+{
+	height: 100%;
+	width: 75%;
+	left: 12%;
+	min-width: 480px;
+	position: absolute;
+	top: 0px;
+	background-color: #ffffff;
+}
+#contactlist
+{
+	float: top;
+	float: right;
+	top: 0px;
+	right: 15%;
+	position: relative;
+	width: 150px;
+	align-content: center;
+	display: inline;
+	z-index: 2;
+}
+.sidebar
+{
+	width: 20%;
+	height: 100%;
+	top: 0px;
+	position: absolute;
+	min-width: 235px;
+	padding: 20px;
+	align-content: center;
+	background-color: #C9C9C9;
+}
+.maincontent
+{
+	width: 75%;
+	height: 100%;
+	position: absolute;
+    right: 0px;
+	top: 0px;
+	min-width: 408px;
+	padding: 5px;
+	background-color: #ffffff;
+}
+.maincontenthighlight
+{
+	width: 100%;
+	position: absolute;
+    left: 0px;
+	padding: 5px;
+	margin-right: 5px;
+	min-width: 600px;
+	background-color: #CFCFCF;
+}
+.maincontentjoblist
+{
+	width: 100%;
+	position: absolute;
+    left: 0px;
+	top: 220px;
+	padding: 5px;
+	background-color: #ffffff;
+}
+h1
+{
+	display: block;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: #727272;
+	font-size: 40px;
+}
+h2
+{
+	display: inline;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #727272;
+	font-size: 20px;
+}
+h3
+{
+	display: inline;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #C5C5C5;
+	font-size: 15px;
+}
+.skillheader
+{	
+	display: inline;
+	right: 0%;
+	font-family: "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 25;
+}
+.jobdate
+{
+	float: right;
+}
+.lists
+{
+	font-family: "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 15;
+}
+.italicized
+{
+	display: block;
+	font-family: "Helvetica, Myriad Pro", "DejaVu Sans Condensed", Arial, sans-serif;
+	font-size: 14;
+	font-style: italic;
+	color: black;
+}
+#picture
+{
+	top: 25px;
+	text-align: center;
+	margin-bottom: 50px;
+	position: relative;
+	border-radius: 50%;
+}
+#contactlist
+{
+	position: absolute;
+	top: 40px;
+	float: right;
+	width: 250px;
+	margin-bottom: 25px;
+}
+#sidebarcontent
+{
+	left: 20px;
+}
+.clear
+{
+	height: 25px;
+	clear: both;
+}
